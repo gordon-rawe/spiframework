@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sample/app.iml" filepath="$PROJECT_DIR$/sample/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spi-framework/spilibrary.iml" filepath="$PROJECT_DIR$/spi-framework/spilibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spiframework.iml" filepath="$PROJECT_DIR$/spiframework.iml" />
+    </modules>
+  </component>
+</project>
