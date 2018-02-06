@@ -1,2 +1,1 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="rawe.gordon.com.framework" />
+<manifest package="rawe.gordon.com.spi.framework" />

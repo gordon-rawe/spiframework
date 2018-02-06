@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">spi-framework</string>
+    <string name="tell_me_who_are_you">Tell me who are you</string>
+    <string name="tell_me_who_are_you_a">Show Identity A</string>
+    <string name="tell_me_who_are_you_b">Show Identity B</string>
 </resources>

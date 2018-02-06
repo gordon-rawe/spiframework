@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/sample/app.iml" filepath="$PROJECT_DIR$/sample/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spi-framework/spilibrary.iml" filepath="$PROJECT_DIR$/spi-framework/spilibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spi-framework/spicore.iml" filepath="$PROJECT_DIR$/spi-framework/spicore.iml" />
       <module fileurl="file://$PROJECT_DIR$/spiframework.iml" filepath="$PROJECT_DIR$/spiframework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vendors/vendor-project.iml" filepath="$PROJECT_DIR$/vendors/vendor-project.iml" />
     </modules>
   </component>
 </project>

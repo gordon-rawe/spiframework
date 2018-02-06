@@ -1,14 +1,15 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 26
+
     defaultConfig {
-        applicationId "rawe.gordon.com.spi_framework"
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -26,11 +27,18 @@ android {
             dimension "default"
         }
     }
+
+    sourceSets {
+        apple {
+            java.srcDirs += "src/apple/java"
+        }
+
+        banana {
+            java.srcDirs += "src/banana/java"
+        }
+    }
 }
 
 dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.android.support:appcompat-v7:26.1.0'
-    implementation project(':spi-framework')
-    implementation project(':vendors')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 }

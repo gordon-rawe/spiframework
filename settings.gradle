@@ -1,1 +1,1 @@
-include ':sample', ':spi-framework'
+include ':sample', ':spi-framework', ':vendors'
